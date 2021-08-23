@@ -8,9 +8,9 @@ namespace Tarea_de_semana_4.Grupo_2
 {
     static class Program
     {
-        /// <summary>
-        /// Punto de entrada principal para la aplicación.
-        /// </summary>
+        ///  <summary>
+        ///  Punto de entrada principal para la aplicación.
+        ///  </summary>
         [STAThread]
         static void Main()
         {

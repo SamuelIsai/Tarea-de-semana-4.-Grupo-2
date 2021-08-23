@@ -37,9 +37,9 @@ namespace Tarea_de_semana_4.Grupo_2
             this.plusLeftLabel = new System.Windows.Forms.Label();
             this.dividedRightLabel = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.dividedLeftLabel = new System.Windows.Forms.Label();
-            this.timesRightLabel = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
+            this.dividedLeftLabel =  new System.Windows.Forms.Label();
+            this.timesRightLabel =  new System.Windows.Forms.Label();
+            this.label17 =  new System.Windows.Forms.Label();
             this.timesLeftLabel = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.minusRightLabel = new System.Windows.Forms.Label();
