@@ -12,7 +12,7 @@ namespace Tarea_de_semana_4.Grupo_2
 {
     public partial class Form1 : Form
     {
-        // Crea un objeto aleatorio llamado randomizer
+        // Crea un objeto   aleatorio llamado randomizer
         // para generar números aleatorios.
         Random randomizer = new Random();
 
