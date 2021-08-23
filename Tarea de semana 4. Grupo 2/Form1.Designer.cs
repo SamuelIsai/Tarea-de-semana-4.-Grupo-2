@@ -31,15 +31,15 @@ namespace Tarea_de_semana_4.Grupo_2
         /// </summary>
         private void InitializeComponent()
         {
-            this.components =  new System.ComponentModel.Container();
+            this.components = new System.ComponentModel.Container();
             this.timeLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.plusLeftLabel = new System.Windows.Forms.Label();
-            this.dividedRightLabel =  new System.Windows.Forms.Label();
-            this.label14 =  new System.Windows.Forms.Label();
-            this.dividedLeftLabel =  new System.Windows.Forms.Label();
-            this.timesRightLabel =  new System.Windows.Forms.Label();
-            this.label17 =  new System.Windows.Forms.Label();
+            this.dividedRightLabel = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
+            this.dividedLeftLabel = new System.Windows.Forms.Label();
+            this.timesRightLabel = new System.Windows.Forms.Label();
+            this.label17 = new System.Windows.Forms.Label();
             this.timesLeftLabel = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
             this.minusRightLabel = new System.Windows.Forms.Label();
@@ -70,6 +70,7 @@ namespace Tarea_de_semana_4.Grupo_2
             this.timeLabel.Name = "timeLabel";
             this.timeLabel.Size = new System.Drawing.Size(200, 30);
             this.timeLabel.TabIndex = 0;
+            this.timeLabel.Click += new System.EventHandler(this.timeLabel_Click);
             // 
             // label1
             // 

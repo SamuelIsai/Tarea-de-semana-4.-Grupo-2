@@ -155,7 +155,7 @@ namespace Tarea_de_semana_4.Grupo_2
                 // un MessageBox y complete las respuestas.
                 timer1.Stop();
                 timeLabel.Text = "¡Se acabó el tiempo!";
-                MessageBox.Show("No terminaste a tiempo", "¡Lo siento!");
+                MessageBox.Show("No terminaste a tiempo", "Haz fallado");
                 suma.Value = addend1 + addend2;
                 diferencia.Value = minuend - subtrahend;
                 Producto.Value = multiplicand * multiplier;
@@ -177,5 +177,9 @@ namespace Tarea_de_semana_4.Grupo_2
             }
         }
 
+        private void timeLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
