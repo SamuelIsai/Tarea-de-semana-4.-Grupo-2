@@ -96,12 +96,12 @@ namespace Tarea_de_semana_4.Grupo_2
         ///  <resumen>
         /// Verifique la respuesta para ver si el usuario hizo todo bien.
         /// </summary>
-        /// <returns> Verdadero si la respuesta es correcta, falso en caso contrario. </returns>
+        /// <returns> Verdadero si la  respuesta es correcta, falso en caso contrario. </returns>
         
         private bool CheckTheAnswer()
         {
             if ((addend1 +  addend2 == suma.Value)
-                && (minuend -  subtrahend == diferencia.Value)
+                && (minuend -   subtrahend == diferencia.Value)
                 && (multiplicand * multiplier == Producto.Value)
                 && (dividend / divisor == quotient.Value))
                 return  true;
@@ -109,9 +109,9 @@ namespace Tarea_de_semana_4.Grupo_2
                 return false;
         }
 
-        public Form1()
+        public  Form1()
         {
-            InitializeComponent();
+             InitializeComponent();
         }
 
         private void plusLeftLabel_Click(object sender, EventArgs e)
