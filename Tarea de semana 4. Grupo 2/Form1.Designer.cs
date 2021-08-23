@@ -23,7 +23,7 @@ namespace Tarea_de_semana_4.Grupo_2
             base.Dispose(disposing);
         }
 
-        #region Código generado por el Diseñador de Windows Forms
+         Código generado por el Diseñador de Windows Forms 
 
         /// <summary>
         /// Método necesario para admitir el Diseñador. No se puede modificar
@@ -31,7 +31,7 @@ namespace Tarea_de_semana_4.Grupo_2
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.components =  new System.ComponentModel.Container();
             this.timeLabel = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.plusLeftLabel = new System.Windows.Forms.Label();

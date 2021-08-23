@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Tarea_de_semana_4.Grupo_2
 {
-    public partial class  Form1 : Form
+    public partial class Form1 : Form
     {
-        // Crea un objeto   aleatorio llamado randomizer
+        // Crea un objeto aleatorio llamado randomizer
         // para generar números aleatorios.
         Random randomizer = new Random();
 
@@ -21,7 +21,7 @@ namespace Tarea_de_semana_4.Grupo_2
         int addend1;
         int addend2;
 
-        // Estas variables enteras almacenan los números
+        // Estas  variables enteras almacenan los números
         // para el problema de resta.
         int minuend;
         int subtrahend;
@@ -93,18 +93,18 @@ namespace Tarea_de_semana_4.Grupo_2
             timeLabel.BackColor = Color.Red;
         }
 
-        /// <resumen>
+        ///  <resumen>
         /// Verifique la respuesta para ver si el usuario hizo todo bien.
         /// </summary>
         /// <returns> Verdadero si la respuesta es correcta, falso en caso contrario. </returns>
         
         private bool CheckTheAnswer()
         {
-            if ((addend1 + addend2 == suma.Value)
-                && (minuend - subtrahend == diferencia.Value)
+            if ((addend1 +  addend2 == suma.Value)
+                && (minuend -  subtrahend == diferencia.Value)
                 && (multiplicand * multiplier == Producto.Value)
                 && (dividend / divisor == quotient.Value))
-                return true;
+                return  true;
             else
                 return false;
         }
